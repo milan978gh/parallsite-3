@@ -3,7 +3,7 @@
 $('#para-button').on('click', function(){
     const author = $('#author').position().top;
 
-    $('html, body').animate({
+    $('body, html').animate({
         scrollTop: author
     }, 5000);
 });
