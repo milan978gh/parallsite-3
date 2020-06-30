@@ -6,3 +6,23 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+html, body{
+    font-family: Verdana, sans-serif;
+    color: darkblue;
+    height: 100%;
+}
+.pimg1, .pimg2{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(../img/pimg2.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(../img/pimg1.jpg);
+    min-height: 500px;
+}
