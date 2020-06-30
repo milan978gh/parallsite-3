@@ -26,3 +26,17 @@ html, body{
     background-image: url(../img/pimg1.jpg);
     min-height: 500px;
 }
+.ptext{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.ptext a, span{
+    background-color: cornflowerblue;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
