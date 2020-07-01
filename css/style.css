@@ -17,7 +17,7 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 .pimg1{
     background-image: url(../img/pimg1.jpg);
@@ -77,4 +77,20 @@ body, html{
 .section p{
     line-height: 1.2;
     letter-spacing: 1px;
+}
+
+@media (min-width: 768px){
+    .pimg1, .pimg2{
+        background-attachment: fixed;
+    }
+    .ptext{
+        font-size: 2.5rem;
+    }
+    .ptext .author{
+        font-size: 3rem;
+        border: 7px solid #ff4500;
+    }
+    .section p{
+        font-weight: 600;
+    }
 }
