@@ -20,11 +20,11 @@ body, html{
     background-attachment: scroll;
 }
 .pimg1{
-    background-image: url(../img/pimg1.jpg);
+    background-image: url(../img/img1.webp);
     min-height: 100%;
 }
 .pimg2{
-    background-image: url(../img/pimg2.jpg);
+    background-image: url(../img/img2.webp);
     min-height: 500px;
 }
 
