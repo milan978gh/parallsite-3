@@ -8,7 +8,7 @@
 }
 body, html{
     font-family: Tahoma, sans-serif;
-    color: teal;
+    color: #007070;
     height: 100%;
 }
 .pimg1, .pimg2{
@@ -25,4 +25,41 @@ body, html{
 .pimg2{
     background-image: url(../img/pimg2.jpg);
     min-height: 500px;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.ptext a{
+    color: #002400;
+    background-color: #008400;
+    border: 5px solid #002400;
+    border-radius: 5px;
+    padding: 5px 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+.ptext a:hover{
+    color: #008400;
+    background-color: #002400;
+    border: 5px solid #008400;
+}
+.ptext span{
+    background-color: #40e0d0;
+    border: 5px solid #007070;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+.ptext .author{
+    font-family: Georgia, serif;
+    font-weight: 600;
+    color: #ff4500;
+    background-color: #ffff00;
+    border: 5px solid #ff4500;
+    padding: 5px 50px;
 }
