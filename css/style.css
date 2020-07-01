@@ -6,16 +6,16 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-html, body{
-    font-family: Verdana, sans-serif;
-    color: darkblue;
+body, html{
+    font-family: Tahoma, sans-serif;
+    color: teal;
     height: 100%;
 }
 .pimg1, .pimg2{
     position: relative;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 .pimg1{
@@ -25,51 +25,4 @@ html, body{
 .pimg2{
     background-image: url(../img/pimg2.jpg);
     min-height: 500px;
-}
-.ptext{
-    position: absolute;
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 3px;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-.ptext a{
-    color: #002400;
-    text-transform: uppercase;
-    background-color: #629200;
-    padding: 10px 100px;
-    border: 3px solid #002400;
-    border-radius: 5px;
-    transition: all .3s;
-}
-.ptext a:hover{
-    color: #629200;
-    background-color: #002400;
-    border: 3px solid #629200;
-}
-.ptext span{
-    background-color: cornflowerblue;
-    padding: 10px 50px;
-    border: 3px solid darkblue;
-    border-radius: 5px;
-}
-.ptext .author{
-    font-family: Georgia, serif;
-    font-size: 3rem;
-    color: orangered;
-    background-color: yellow;
-    border: 10px solid orangered;
-}
-.section{
-    padding: 30px 100px;
-    text-align: center;
-}
-.section h1{
-    margin-bottom: 10px;
-}
-.section p{
-    line-height: 1.5;
-    font-weight: 600;
 }
